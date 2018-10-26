@@ -21,5 +21,12 @@ public class Main {
         map.pereborValue();
         System.out.print("Преребор ключей колекции :  "+"\n");
         map.pereborKey();
+
+        System.out.println("\n\n");
+        MyDictionary <Integer,String> map2 = new MyDictionary<>();
+        map2.add(1,"proba");
+        map2.pereborKey();
+        map2.pereborValue();
     }
+
 }
